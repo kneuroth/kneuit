@@ -6,6 +6,7 @@ import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://kneuroth.github.io/kneuroth/blog",
+  site: "https://kneuroth.github.io",
+  base: "/kneuit",
   integrations: [mdx(), sitemap()],
 });
