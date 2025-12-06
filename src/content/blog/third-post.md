@@ -1,16 +1,21 @@
 ---
-title: 'Third post'
-description: 'Lorem ipsum dolor sit amet'
-pubDate: 'Jul 22 2022'
-heroImage: '../../assets/blog-placeholder-2.jpg'
+title: ""
+description: "Business value VS developer sanity Corpo"
+pubDate: "Jul 22 2022"
+heroImage: "../../assets/blog-placeholder-2.jpg"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+MVP iteration is useful way of building software, especially when providing value is keeping your team afloat. If you're in a team that relies heavily on the skateboard -> bicycle -> motorcycle -> car analogy, then you may have experienced some frustration with this model. You finish a sprint cycle with a perfectly running shiny new car, but turning around and hearing a stakeholder ask for a convertable next, and finding that you'll have to either duplicate 95% of your code for this new convertable effort, or re-write your entire repository to allow for retractible roofs (rooves?). Whether you've been in this situation or not, it's helpful to keep an adjacent, but more future-proof iterative design methodology in mind, which is to think car -> car factory -> car factory blueprint. If you feel that whatever feature or product you're building could be providing value in other areas with just a few tweaks, then start to think more on abstraction than value add at each stage of development.
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
+(example)
+The abstraction can only come only come out after the first version. Pay attention to business asks and the why behind the work. You might need to be building a framework.
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
+(why this was messy)
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
+(takeaway)
+Takeaway: If you're noticing that you might have to solve similar problems later, priority clarity of code (because youll be revisiting and reusing) over cleverness. Isolation of functions over hypergeneralization - it's often easier to write implementations of classes than to create 1 class that covers all situations. Provision space to grow.
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+(payoff)
+Payoff: You end up being able to create your first version with a simple config file or declared object.
+You can make as many cars as you want
+You arent doing tiny code tweaks, pushes the work to the business to setup their value adding machine themselves.
